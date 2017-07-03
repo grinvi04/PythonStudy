@@ -1,6 +1,7 @@
 # 문자열 타입
 commentLength = 20
 
+
 # 문자열 생성
 print("=" * commentLength)
 print("문자열 생성")
