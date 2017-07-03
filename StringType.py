@@ -1,6 +1,11 @@
 # 문자열 타입
+commentLength = 20
 
 # 문자열 생성
+print("=" * commentLength)
+print("문자열 생성")
+print("=" * commentLength)
+
 # 1. 큰따옴표로 양쪽 둘러싸기
 print("Hello World")
 # 2. 작은따옴표로 양쪽 둘러싸기
@@ -11,6 +16,10 @@ print("""Life is too short, You need python""")
 print('''Life is too short, You need python''')
 
 # 문자열 안에 작은따옴표나 큰따옴표를 포함시키고 싶을 때
+print("=" * commentLength)
+print("문자열 안에 작은따옴표나 큰따옴표를 포함시키고 싶을 때")
+print("=" * commentLength)
+
 # 1) 문자열에 작은따옴표 (') 포함시키기
 print("Python's favorite food is perl")
 print('Python"s favorite food is perl')
@@ -19,6 +28,9 @@ print('Python\'s favorite food is perl')
 print("\"Python is very easy.\" he says.")
 
 # 여러 줄인 문자열을 변수에 대입하고 싶을 때
+print("=" * commentLength)
+print("여러 줄인 문자열을 변수에 대입하고 싶을 때")
+print("=" * commentLength)
 # 1) 줄을 바꾸기 위한 이스케이프 코드 \n 삽입하기
 multiline = "Life is short\nyou need python"
 print(multiline)
@@ -36,6 +48,9 @@ you need to python
 print(multiline)
 
 # 문자열 연산하기
+print("=" * commentLength)
+print("문자열 연산하기")
+print("=" * commentLength)
 # 1) 문자열 더해서 연결하기(Concatenation)
 head = "python"
 tail = " is fun"
@@ -51,6 +66,9 @@ print("My Program")
 print("=" * 50)
 
 # 문자열 인덱싱과 슬라이싱
+print("=" * commentLength)
+print("문자열 인덱싱과 슬라이싱")
+print("=" * commentLength)
 a = "life is too short, you need to python"
 print(a[3])
 
@@ -74,6 +92,9 @@ print(a[20:]) # 끝번호 생략 시 문자열의 끝까지 슬라이싱
 print(a) # 문자열 전체 print(a[:])와 같다.
 
 # 문자열 포매팅
+print("=" * commentLength)
+print("문자열 포매팅")
+print("=" * commentLength)
 # 1) 숫자 바로 대입
 print("I eat %d apples." % 3)
 # 2) 문자열 바로 대입
@@ -90,6 +111,9 @@ print("I ate {number} apples. so I was sick for {day} days.".format(number=10, d
 print("I ate {0} apples. so I was sick for {day} days.".format(10, day=3))
 
 # 문자열 관련 함수들
+print("=" * commentLength)
+print("문자열 관련 함수들")
+print("=" * commentLength)
 # 문자 개수 세기(count)
 a = "hobby"
 print(a.count("b"))
